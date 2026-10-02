@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Local test scripts and temporary artifacts
+tmp_test_flow*.py
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
